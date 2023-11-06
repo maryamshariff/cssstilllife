@@ -129,11 +129,14 @@
   
   .lid-left-can{
    clip-path: inset(5% 20% 91% 10%);
-   
-    
+   position: absolute;
+   top: 150px;
+ 	 left: 1px;
+   width: 435px;
+  border: 15px solid silver;
+  background: yellow;
   }
-  
-  
+ 
   
   .right-can {
     position: absolute;
@@ -150,6 +153,15 @@
    width: 250px; 
   }
   
+  .lid-right-can{
+   clip-path: inset(5% 20% 91% 10%);
+   position: absolute;
+   top: 150px;
+ 	 left: 330px;
+   width: 250px;
+  border: 15px solid silver;
+  background: yellow;
+  } 
   
   .cup {
     border: 1px solid black;
@@ -249,9 +261,11 @@
     </div>
   </div>
   <div class="bustello left-can"></div>
+    <div class="bustello lid-left-can"></div>
     <div class="bustello red-left-can"></div>
   <div class="bustello right-can"></div>
   <div class="bustello red-right-can"></div>
+  <div class="bustello lid-right-can"></div>
   
   <div class="cup top-cup">
     <div class="top-cup-handle"></div>
