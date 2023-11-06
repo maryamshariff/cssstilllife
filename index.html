@@ -89,9 +89,6 @@
     z-index: 5; 
   	background: linear-gradient(90deg, rgba(255,122,0,1) 0%, rgba(214,110,15,1) 24%, rgba(241,143,49,1) 25%, rgba(242,138,37,1) 46%, rgba(255,122,0,1) 46%, rgba(242,138,38,1) 55%, rgba(214,110,15,1) 69%, rgba(238,126,24,1) 70%);
   }
-  
-
-  
 
   /* cafe bustellos */
   
@@ -102,16 +99,20 @@
     background: linear-gradient(90deg, rgba(255,177,0,1) 0%, rgba(255,229,0,1) 35%, rgba(255,177,0,1) 100%);
     border: 3px solid silver;
   }
- 
-  
-  .branding{
-    
-  }
   
   .left-can {
     position: absolute;
     top: 160px;
     left: 170px;
+  }
+  
+  .red-left-can{
+   clip-path: inset(54% 20% 15% 10%);
+ 	 background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,128,128,1) 50%, rgba(255,0,0,1) 100%);
+   position: absolute;
+ 	 top: 192px;
+ 	 left: 147px;
+   width: 250px; 
   }
   
   .right-can {
@@ -120,10 +121,14 @@
     left: 353px;
   }
   
- 
-  
-  
-  
+  .red-right-can{
+   clip-path: inset(54% 20% 15% 10%);
+ 	 background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,128,128,1) 50%, rgba(255,0,0,1) 100%);
+   position: absolute;
+ 	 top: 192px;
+ 	 left: 330px;
+   width: 250px; 
+  }
   
   
   .cup {
@@ -222,7 +227,10 @@
     </div>
   </div>
   <div class="bustello left-can"></div>
+    <div class="bustello red-left-can"></div>
   <div class="bustello right-can"></div>
+  <div class="bustello red-right-can"></div>
+  
   <div class="cup top-cup">
     <div class="top-cup-handle"></div>
     <div class="triangle">
