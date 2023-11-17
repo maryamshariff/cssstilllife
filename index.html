@@ -1,5 +1,4 @@
 <style>
-  
   * { box-sizing: border-box; }
   
   body {
@@ -112,6 +111,18 @@
     border: 3px solid silver;
   }
   
+  .ref::before {
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  color: navy;
+  content: "AFE USTE";
+  position: absolute; 
+  left: 190px ;
+  top: 170px;
+  font-size: 60px;
+}
+
+    
   .left-can {
     position: absolute;
     top: 160px;
@@ -144,7 +155,29 @@
     left: 353px;
   }
   
-  .red-right-can{
+  .ref2::before {
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  color: navy;
+  content: "CAFE";
+  position: absolute; 
+  right: -30px;
+  top: 170px;
+  font-size: 60px;
+}
+  
+  .ref3::before {
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  color: navy;
+  content: "USTE";
+  position: absolute; 
+  right: -30px;
+  top: 235px;
+  font-size: 60px;
+}
+  
+ .red-right-can{
    clip-path: inset(54% 20% 15% 10%);
  	 background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,128,128,1) 50%, rgba(255,0,0,1) 100%);
    position: absolute;
@@ -152,6 +185,25 @@
  	 left: 330px;
    width: 250px; 
   }
+  
+  .refred1::before {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  content: "AND FLAVORFUL";
+  position: absolute; 
+  right: -30px;
+  bottom: 160px;
+  font-size: 10px;
+} 
+  .refred1::before {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  content: "AND FLAVORFUL";
+  position: absolute; 
+  right: -30px;
+  bottom: 160px;
+  font-size: 10px;
+}  
   
   .lid-right-can{
    clip-path: inset(5% 20% 91% 10%);
@@ -162,13 +214,7 @@
   border: 15px solid silver;
   background: yellow;
   } 
-  
-  .brand-right-can{
-  font-family: "Arial";
-    
-    
-  }
-  
+
   
   .cup {
     border: 1px solid black;
@@ -261,18 +307,26 @@
     <div class="caf-bottom"></div>
       <div class="caf-top"></div>
       <div class="caf-connector"></div>
-      
       <div class="caf-handle"></div>
       <div class="caf-topblack"></div>
       <div class="caf-pour"></div>
     </div>
   </div>
   <div class="bustello left-can"></div>
+   <div class="ref"></div>
+  <div class="refb"></div>
+ 
     <div class="bustello lid-left-can"></div>
     <div class="bustello red-left-can"></div>
+ 
+  
   <div class="bustello right-can"></div>
   <div class="bustello red-right-can"></div>
   <div class="bustello lid-right-can"></div>
+<div class="ref2"></div>
+
+  <div class="ref3"></div>
+  <div class="refred1"></div>
   
   <div class="cup top-cup">
     <div class="top-cup-handle"></div>
